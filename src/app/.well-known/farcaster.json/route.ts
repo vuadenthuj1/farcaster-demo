@@ -3,22 +3,23 @@ export async function GET() {
 
   const config = {
     accountAssociation: {
-      header:
-        "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-      payload: "eyJkb21haW4iOiJmcmFtZXMtdjIudmVyY2VsLmFwcCJ9",
-      signature:
-        "MHhiNDIwMzQ1MGZkNzgzYTExZjRiOTllZTFlYjA3NmMwOTdjM2JkOTY1NGM2ODZjYjkyZTAyMzk2Y2Q0YjU2MWY1MjY5NjI5ZGQ5NTliYjU0YzEwOGI4OGVmNjdjMTVlZTdjZDc2YTRiMGU5NzkzNzA3YzkxYzFkOWFjNTg0YmQzNjFi",
+      header: "",
+      payload: "",
+      signature: "",
     },
     frame: {
+      name: "Interview app",
       version: "1",
-      name: "Frames v2 Demo",
-      iconUrl: `${appUrl}/icon.png`,
-      homeUrl: appUrl,
-      imageUrl: `${appUrl}/frames/hello/opengraph-image`,
-      buttonTitle: "Launch Frame",
-      splashImageUrl: `${appUrl}/splash.png`,
-      splashBackgroundColor: "#f7f7f7",
-      webhookUrl: `${appUrl}/api/webhook`,
+      iconUrl: "https://https://farcaster-demo-ten.vercel.app/icon.png",
+      homeUrl: "https://https://farcaster-demo-ten.vercel.app",
+      imageUrl: "https://https://farcaster-demo-ten.vercel.app/image.png",
+      splashImageUrl:
+        "https://https://farcaster-demo-ten.vercel.app/splash.png",
+      splashBackgroundColor: "#ffffff",
+      webhookUrl: "https://https://farcaster-demo-ten.vercel.app/api/webhook",
+      subtitle: "connect and interview",
+      description: "connect and interview",
+      primaryCategory: "social",
     },
   };
 
